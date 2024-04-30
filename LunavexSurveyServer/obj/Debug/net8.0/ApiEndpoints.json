@@ -1,0 +1,166 @@
+[
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveysController",
+    "Method": "CreateSurvey",
+    "RelativePath": "api/Surveys/CreateSurvey",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LunavexSurveyServer.Domain.DTOs.CreateSurveyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveysController",
+    "Method": "DeleteQuestion",
+    "RelativePath": "api/Surveys/DeleteQuestion/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveysController",
+    "Method": "DeleteSurvey",
+    "RelativePath": "api/Surveys/DeleteSurvey/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveysController",
+    "Method": "GetAllSurvey",
+    "RelativePath": "api/Surveys/GetAllSurvey",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveysController",
+    "Method": "GetBySurveyId",
+    "RelativePath": "api/Surveys/GetBySurveyId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveysController",
+    "Method": "UpdateSurvey",
+    "RelativePath": "api/Surveys/UpdateSurvey",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LunavexSurveyServer.Domain.DTOs.UpdateSurveyDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveySubmissionsController",
+    "Method": "CreateSurveySubmission",
+    "RelativePath": "api/SurveySubmissions/CreateSurveySubmission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LunavexSurveyServer.Domain.DTOs.CreateSurveySubmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveySubmissionsController",
+    "Method": "DeleteQuestionValue",
+    "RelativePath": "api/SurveySubmissions/DeleteQuestionValue",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveySubmissionsController",
+    "Method": "DeleteSurveySubmission",
+    "RelativePath": "api/SurveySubmissions/DeleteSurveySubmission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveySubmissionsController",
+    "Method": "GetAllSurveySubmission",
+    "RelativePath": "api/SurveySubmissions/GetAllSurveySubmission",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "LunavexSurveyServer.Controllers.SurveySubmissionsController",
+    "Method": "UpdateSurveySubmission",
+    "RelativePath": "api/SurveySubmissions/UpdateSurveySubmission",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "LunavexSurveyServer.Domain.DTOs.UpdateSurveySubmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
