@@ -71,7 +71,7 @@ public class SurveyService(AppDbContext context, IQuestionService questionServic
             {
                 survey.Data.Name = request.Name;
                 survey.Data.Description = request.Description;
-                survey.Data.ModifiedDate = DateTime.Now;
+                survey.Data.ModifiedDate = DateTime.UtcNow;
                 await context.SaveChangesAsync();
                 await questionService.UpdateQuestion(request.UpdateQuestionDto, request.Id, cancellationToken);
                 await context.Database.CommitTransactionAsync();

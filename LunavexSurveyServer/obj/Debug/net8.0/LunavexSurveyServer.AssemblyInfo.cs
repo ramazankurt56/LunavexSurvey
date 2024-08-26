@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("adf92315-e10c-477d-a20f-f0386274ee5e")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("LunavexSurveyServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b32c3a63ee99583ed13faa2f7f9f9cc845066da")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc24429ef31bc358c954b50fbfdbcc889c4423c3")]
 [assembly: System.Reflection.AssemblyProductAttribute("LunavexSurveyServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LunavexSurveyServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,7 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { SwalService } from './swal.service';
+import { environment } from '../../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -13,7 +14,7 @@ export class HttpService {
   ) { }
 
   get(api: string, callBack: (res:any)=> void) {
-    this.http.get(`https://localhost:7155/api/${api}`, 
+    this.http.get(`${environment.api_url}${api}`, 
     ).subscribe({
       next: (res: any) => {
         callBack(res);
@@ -27,7 +28,7 @@ export class HttpService {
   }
 
   post(api: string, body:any,callBack: (res:any)=> void) {
-    this.http.post(`https://localhost:7155/api/${api}`,body
+    this.http.post(`${environment.api_url}${api}`,body
     ).subscribe({
       next: (res: any) => {
         callBack(res);

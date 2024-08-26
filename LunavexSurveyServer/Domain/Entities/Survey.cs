@@ -11,7 +11,7 @@ public class Survey : Entity
 
     public string Description { get; set; } = string.Empty;
 
-    public DateTime CreatedDate { get; set; } = DateTime.Now;
+    public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
 
     public DateTime? ModifiedDate { get; set; }
 
